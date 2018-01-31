@@ -161,7 +161,7 @@ public class Create extends JFrame {
 					Connection conn =DriverManager.getConnection(connURL,login,password);
 					Statement command = conn.createStatement();
 					
-				command.execute("insert into regi values('" +name+ "','" + age +"','" + phoneno+"','" + user +"','" + age +"')");
+				command.execute("insert into regi values('" +name+ "','" + age +"','" + phoneno+"','" + user +"','" + pass +"')");
 				JOptionPane.showMessageDialog(null, "Records entered");
 				}
 			

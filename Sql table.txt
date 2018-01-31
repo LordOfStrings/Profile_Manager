@@ -1,0 +1,12 @@
+create database profile;
+
+
+create table regi(
+name varchar(20),
+age varchar(20),
+phoneno varchar(20),
+user varchar(20),
+name varchar(20),
+pass varchar(20));
+
+
